@@ -9,9 +9,12 @@ GET {{baseUrl}}/api/v1/todos/1
 POST {{baseUrl}}/api/v1/todos
 Content-Type: application/json
 {
-"title": "An example Todo",
-"description": "This is an example todo",
+    "title": "Watch CSSE6400 Lecture",
+    "description": "Watch the CSSE6400 lecture on ECHO360 for week 1",
+    "completed": true,
+    "deadline_at": "2023-02-27T00:00:00"
 }
+
 ### Update a Todo
 PUT {{baseUrl}}/api/v1/todos/1
 Content-Type: application/json
